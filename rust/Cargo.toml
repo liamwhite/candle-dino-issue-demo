@@ -1,0 +1,11 @@
+[package]
+name = "candle_issue_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.8.1" }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.8.1" }
+candle-transformers = { git = "https://github.com/huggingface/candle.git", version = "0.8.1" }
+hf-hub = { git = "https://github.com/huggingface/hf-hub.git", version = "0.4.0" }
+image = { version = "0.25.2", default-features = false, features = ["png"] }
